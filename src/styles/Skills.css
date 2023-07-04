@@ -1,0 +1,41 @@
+.img-and-name {
+    justify-content: center;
+    flex-basis: 250px;
+}
+
+.skills-header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-inner-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 2em;
+    padding: 2em 7em;
+}
+
+.skill-img {
+    text-align: center;
+}
+
+.img-and-name p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.img-and-name img {
+    width: 70px;
+}
+
+.skills-header {
+    font-size: 3em;
+    font-weight: 500;
+    border-bottom: .15em solid rgb(230, 138, 32);
+    padding: .25em .5em;
+}
+
+.test {
+    border-bottom: 1px solid orange;
+}

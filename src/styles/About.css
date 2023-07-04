@@ -1,0 +1,63 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-header-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.about-me-header {
+  font-size: 3em;
+  text-align: center;
+  border-bottom: 0.15em solid rgb(225, 154, 30);
+  padding: 0 0.4em;
+}
+
+.img-and-about-me {
+  display: flex;
+  gap: 2em;
+  padding: 3em;
+}
+
+.self-img-container img {
+  width: 500px;
+}
+
+.about-me-text {
+  display: flex;
+  justify-content: center;
+  flex-basis: 80%;
+  text-align: center;
+  line-height: 2
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+@media (max-width: 800px) {
+  .img-and-about-me {
+    display: block;
+  }
+
+  .self-img-container {
+    display: flex;
+    /* width: 300px; */
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3em;
+  }
+
+  .img-and-about-me {
+    padding-top: 1em;
+  }
+
+  .self-img-container img {
+    width: 300px;
+    border-radius: 50%;
+  }
+}
